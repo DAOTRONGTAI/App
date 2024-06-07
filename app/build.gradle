@@ -10,13 +10,12 @@ plugins {
 }
 
 android {
-//    namespace 'com.example.login_example'
     compileSdk 34
 
     defaultConfig {
         applicationId "com.example.login_example"
         minSdk 24
-        targetSdk 34
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 

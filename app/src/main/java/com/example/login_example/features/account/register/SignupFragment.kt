@@ -1,4 +1,4 @@
-package com.example.login_example.features.login.account.register
+package com.example.login_example.features.account.register
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import com.example.login_example.R
 import com.example.login_example.base.baseui.BaseFragment
 import com.example.login_example.databinding.FragmentSignupBinding
-import com.example.login_example.features.login.account.data.User
+import com.example.login_example.features.account.data.User
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 

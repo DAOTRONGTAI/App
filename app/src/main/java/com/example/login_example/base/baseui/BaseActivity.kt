@@ -19,7 +19,7 @@ import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 
-class BaseActivity : AppCompatActivity() {
+abstract class BaseActivity : AppCompatActivity() {
     lateinit var progressDialog: ProgressDialog
 
     override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {

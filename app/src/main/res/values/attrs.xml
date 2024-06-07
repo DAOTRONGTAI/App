@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppToolbar">
+        <attr name="backLabel" format="string" />
+        <attr name="toolbarTitle" format="string" />
+        <attr name="showBackButton" format="boolean" />
+        <attr name="showBackLabel" format="boolean" />
+        <attr name="showTitle" format="boolean" />
+        <attr name="showNotifications" format="boolean" />
+        <attr name="showSettingButton" format="boolean" />
+        <attr name="showSearch" format="boolean" />
+        <attr name="showQRCode" format="boolean" />
+        <attr name="showAccount" format="boolean" />
+        <attr name="showInfo" format="boolean" />
+        <attr name="showAvatar" format="boolean" />
+        <attr name="showStatus" format="boolean" />
+        <attr name="toolBarBackground" format="reference" />
+        <attr name="showNotify" format="boolean" />
+        <attr name="showTitleUserName" format="boolean" />
+        <attr name="showSticker" format="boolean"/>
+        <attr name="ShowNumSticker" format="boolean"/>
+        <attr name="showTextBold" format="boolean"/>
+        <attr name="textSearch" format="boolean"/>
+
+        <attr name="showLike" format="boolean" />
+        <attr name="showAddFriend" format="boolean" />
+
+        <attr name="showFAQs" format="boolean" />
+        <attr name="showCoin" format="boolean" />
+        <attr name="showLevel" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="FloatingOptions">
+        <attr name="alphaWhenIdle" format="float" />
+        <attr name="buttonDrawable" format="boolean" />
+        <attr name="optionsSize" format="dimension" />
+        <attr name="optionsMargin" format="dimension" />
+        <attr name="buttonDelete" format="boolean"/>
+
+    </declare-styleable>
+</resources>

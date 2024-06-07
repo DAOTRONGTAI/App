@@ -1,10 +1,9 @@
-package com.example.login_example.features.login.account.forgetaccount
+package com.example.login_example.features.account.forgetaccount
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.Fragment
 import com.example.login_example.base.baseui.BaseFragment
 import com.example.login_example.databinding.FragmentForgetAcountBinding
 

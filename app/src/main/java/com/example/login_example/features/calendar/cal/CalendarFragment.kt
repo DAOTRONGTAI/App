@@ -6,9 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.login_example.R
+import com.example.login_example.databinding.FragmentCalendarBinding
 
 
 class CalendarFragment : Fragment() {
+
+    lateinit var binding: FragmentCalendarBinding
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

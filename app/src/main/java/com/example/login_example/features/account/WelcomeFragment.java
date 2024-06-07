@@ -1,4 +1,4 @@
-package com.example.login_example.features.login.account;
+package com.example.login_example.features.account;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

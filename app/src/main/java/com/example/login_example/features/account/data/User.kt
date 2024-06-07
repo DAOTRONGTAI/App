@@ -1,4 +1,4 @@
-package com.example.login_example.features.login.account.data
+package com.example.login_example.features.account.data
 
 class User {
     var name: String? = null

@@ -7,36 +7,36 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.login_example.features.login.account.login.LoginFragment"
+        android:name="com.example.login_example.features.account.login.LoginFragment"
         android:label="LoginFragment"
         tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_loginFragment_to_signupFragment"
             app:destination="@id/signupFragment" />
-        <action
-            android:id="@+id/action_loginFragment_to_welcomeFragment"
-            app:destination="@id/welcomeFragment" />
+<!--        <action-->
+<!--            android:id="@+id/action_loginFragment_to_welcomeFragment"-->
+<!--            app:destination="@id/welcomeFragment" />-->
         <action
             android:id="@+id/action_loginFragment_to_fragmentForgetAcount"
             app:destination="@id/fragmentForgetAcount" />
     </fragment>
     <fragment
         android:id="@+id/signupFragment"
-        android:name="com.example.login_example.features.login.account.register.SignupFragment"
+        android:name="com.example.login_example.features.account.register.SignupFragment"
         android:label="SignupFragment"
         tools:layout="@layout/fragment_signup">
         <action
             android:id="@+id/action_signupFragment_to_loginFragment"
             app:destination="@id/loginFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/welcomeFragment"
-        android:name="com.example.login_example.features.login.account.WelcomeFragment"
-        android:label="fragment_welcome"
-        tools:layout="@layout/fragment_welcome" />
+<!--    <fragment-->
+<!--        android:id="@+id/welcomeFragment"-->
+<!--        android:name="com.example.login_example.features.account.WelcomeFragment"-->
+<!--        android:label="fragment_welcome"-->
+<!--        tools:layout="@layout/fragment_welcome" />-->
     <fragment
         android:id="@+id/fragmentForgetAcount"
-        android:name="com.example.login_example.features.login.account.forgetaccount.FragmentForgetAcount"
+        android:name="com.example.login_example.features.account.forgetaccount.FragmentForgetAcount"
         android:label="FragmentForgetAcount"
         tools:layout="@layout/fragment_forget_acount">
         <action
