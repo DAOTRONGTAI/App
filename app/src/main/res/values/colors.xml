@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="colorPrimary">@color/esu_light_grey</color>
+    <color name="colorPrimaryDark">@color/esu_blue</color>
+    <color name="colorAccent">@color/esu_blue</color>
+    <color name="color_00000000">#00000000</color>
+    <color name="red_tv_count_home">#EC1E27</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="white_editext">#EFECEC</color>
+    <color name="white_overlay">#EFECEC</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="esu_number_black">#222222</color>
+    <color name="esu_number_black_other">#333333</color>
+
+    <color name="esu_item_count">#989898</color>
+    <color name="esu_title_grey">#cacaca</color>
+    <color name="esu_count_down_time">#cacbcb</color>
+
+    <color name="esu_top_bottom_background">#007BC1</color>
+    <!--    <color name="esu_top_bottom_background">#4fae4f</color>-->
+
+
+    <color name="esu_red">#FF0000</color>
+    <color name="esu_red_tv_count_home">#EC1E27</color>
+    <color name="esu_dark_red">#c00000</color>
+
+    <color name="esu_blue">#007BC1</color>
+    <color name="esu_blue_alpha">#50007BC1</color>
+    <color name="esu_dark_blue">#293A88</color>
+    <color name="esu_light_grey">#f9f9f9</color>
+    <color name="esu_grey_light_2">#F5F6F6</color>
+    <color name="esu_grey_light_3">#EAEBEC</color>
+    <color name="esu_grey_light_4">#E6E6E6</color>
+    <color name="esu_grey_bg">#f3f3f3</color>
+    <color name="esu_grey_bg_2">#f2f2f2</color>
+    <color name="esu_grey">#D9D9D9</color>
+    <color name="esu_setting_border">#d4d4d6</color>
+    <color name="esu_grey_home_border">#eaeaea</color>
+    <color name="esu_grey_home_progress_level">#ededed</color>
+    <color name="esu_grey_divider">#acaeb2</color>
+    <color name="esu_dark_grey">#8d8d8d</color>
+    <color name="esu_light_grey_2">#C6C6C8</color>
+    <color name="esu_progress_grey">#CCCCCC</color>
+    <color name="esu_grey_view_group_border">#f7f8f8</color>
+    <color name="esu_grey_bg_3">#EAEBEC</color>
+    <color name="esu_grey_bg_4">#F7F8F9</color>
+    <color name="esu_grey_bg_5">#C8C6CB</color>
+    <color name="circle">#F1F1F1</color>
+    <color name="esu_tab_bg">#cad5e7</color>
+
+    <color name="esu_orange">#ED7D31</color>
+    <color name="esu_light_green">#92D050</color>
+    <color name="esu_green">#4fae4f</color>
+    <color name="esu_green_1">#4AAE4F</color>
+    <color name="esu_green_2">#81FB80</color>
+    <color name="esu_green_alpha">#504fae4f</color>
+    <color name="esu_green_home_tab_disable">@color/esu_dark_grey</color>
+    <color name="esu_green_home_level_progress">#00b84f</color>
+    <color name="esu_dark_green">#385723</color>
+    <color name="esu_yellow">#F3EC19</color>
+    <color name="esu_light_yellow">#ffd966</color>
+    <color name="esu_Black">#000000</color>
+    <color name="esu_light_black">#010101</color>
+    <color name="esu_login_grey">#8E8D8D</color>
+
+    <color name="esu_cloud">#dce6ff</color>
+
+    <color name="esu_bg_writing">#FFDF47</color>
+    <color name="esu_bg_jlpt">#79BDE2</color>
+    <color name="esu_bg_search">#8FC5B8</color>
+    <color name="esu_bg_ghep_doi">#E8EAF2</color>
+    <color name="esu_bg_chuyen_am">#f5f6f6</color>
+    <color name="esu_bg_bo_thu">#E8EAF2</color>
+
+    <color name="esu_level_progress_n5">#fff2cc</color>
+    <color name="esu_level_progress_n4">#f9e4a3</color>
+    <color name="esu_level_progress_n3">#ffd966</color>
+    <color name="esu_level_progress_n2">#ffc804</color>
+    <color name="esu_level_progress_n1">#f7bc00</color>
+
+    <color name="esu_line">#E6E7EF</color>
+    <color name="esu_green_keybroad">#82CA3F</color>
+    <color name="esu_line_trans">#C8CAD3</color>
+    <color name="esu_edt_bottom_line">#e2e2e3</color>
+    <color name="esu_stroke_circle">#E8F6E9</color>
+
+    <color name="esu_kanji_hint_bg">#8c6fa8</color>
+    <color name="esu_kanji_hint_bg_2">#b5a1cd</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="color_cover_button">#F4F5F5</color>
+
+
+    <color name="shadow">#B0000000</color>
+    <color name="light_gray">#DDDDDD</color>
+
+    <color name="esu_black_primary">#212121</color>
+    <color name="esu_green_proverb">#c6e6d7</color>
+    <color name="esu_yellow_tutorial">#fcf251</color>
+    <color name="esu_cyan_tutorial">#86c6ed</color>
+
+</resources>
