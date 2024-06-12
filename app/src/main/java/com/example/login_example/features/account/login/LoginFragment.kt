@@ -1,19 +1,14 @@
 package com.example.login_example.features.account.login
 
 import android.content.Intent
-import android.graphics.Paint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.login_example.R
-import com.example.login_example.base.baseui.BaseFragment
+import com.example.login_example.features.base.BaseFragment
 import com.example.login_example.databinding.FragmentLoginBinding
 import com.example.login_example.features.MainActivity
-import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.DatabaseError
-import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.database.ValueEventListener
 
 class LoginFragment : BaseFragment() {
     lateinit var binding: FragmentLoginBinding
@@ -52,6 +47,9 @@ class LoginFragment : BaseFragment() {
             if (binding.edtName.text.toString() == "taidao" && binding.edtPassword.text.toString() == "123456") {
                 val intent = Intent(requireActivity(), MainActivity :: class.java)
                 startActivity(intent)
+            } else if (binding.edtName.text.toString() == "" && binding.edtPassword.text.toString() == ""
+                || binding.edtName.text.toString() == "" || binding.edtPassword.text.toString() == "") {
+                showErrorMessage("Nhập đầy đủ thông tin")
             }else{
                 showErrorMessage("Số điện thoại hoặc mật khẩu không đúng")
             }

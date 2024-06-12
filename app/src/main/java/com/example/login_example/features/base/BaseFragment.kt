@@ -1,4 +1,4 @@
-package com.example.login_example.base.baseui
+package com.example.login_example.features.base
 
 import android.app.Activity
 import android.content.Context

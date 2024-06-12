@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.login_example.R
-import com.example.login_example.base.baseui.BaseFragment
+import com.example.login_example.features.base.BaseFragment
 import com.example.login_example.databinding.FragmentSignupBinding
 import com.example.login_example.features.account.data.User
 import com.google.firebase.database.DatabaseReference

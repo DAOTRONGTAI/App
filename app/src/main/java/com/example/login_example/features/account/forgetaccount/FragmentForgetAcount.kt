@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.login_example.base.baseui.BaseFragment
+import com.example.login_example.features.base.BaseFragment
 import com.example.login_example.databinding.FragmentForgetAcountBinding
 
 class FragmentForgetAcount : BaseFragment() {

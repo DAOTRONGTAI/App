@@ -31,6 +31,14 @@
 
     </declare-styleable>
 
+    <declare-styleable name="AppBottombar">
+        <attr name="calendar" format="string" />
+        <attr name="account" format="string" />
+        <attr name="calculator" format="string" />
+        <attr name="note" format="string" />
+
+    </declare-styleable>
+
     <declare-styleable name="FloatingOptions">
         <attr name="alphaWhenIdle" format="float" />
         <attr name="buttonDrawable" format="boolean" />
@@ -39,4 +47,6 @@
         <attr name="buttonDelete" format="boolean"/>
 
     </declare-styleable>
+
+
 </resources>
