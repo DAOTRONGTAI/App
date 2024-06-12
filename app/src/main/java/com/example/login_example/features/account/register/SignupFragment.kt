@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import com.example.login_example.R
 import com.example.login_example.features.base.BaseFragment
 import com.example.login_example.databinding.FragmentSignupBinding
-import com.example.login_example.features.account.data.User
+import com.example.login_example.data.User
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
@@ -44,7 +44,7 @@ class SignupFragment : BaseFragment() {
             val username = binding!!.edtUserName.text.toString()
             val password = binding!!.edtPassword.text.toString()
 
-            val user = User(name, email, username, password)
+            val user = User(1,name, email, username, password)
             reference!!.child(username).setValue(user)
             navController.navigate(R.id.action_signupFragment_to_loginFragment)
         }

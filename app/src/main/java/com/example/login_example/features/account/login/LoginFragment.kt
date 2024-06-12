@@ -53,14 +53,16 @@ class LoginFragment : BaseFragment() {
             }else{
                 showErrorMessage("Số điện thoại hoặc mật khẩu không đúng")
             }
+            onHideSoftKeyBoard()
         }
 
         binding.tvRegister.setOnClickListener {
             navController.navigate(R.id.action_loginFragment_to_signupFragment)
+
         }
 
         binding.tvForgetPass.setOnClickListener {
-            navController.navigate(R.id.action_loginFragment_to_signupFragment)
+            navController.navigate(R.id.action_loginFragment_to_fragmentForgetAcount)
         }
     }
 

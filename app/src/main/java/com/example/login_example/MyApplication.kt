@@ -14,6 +14,8 @@ import org.greenrobot.eventbus.EventBus
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.lifecycle.ProcessLifecycleOwner
+import androidx.room.Room
+import com.example.login_example.room.AppDatabase
 import com.google.firebase.FirebaseApp
 
 
@@ -26,6 +28,8 @@ class MyApplication : Application(), LifecycleObserver {
 
     companion object {
         const val CHANNEL_ID: String = "push_notify"
+        private val DATABASE_NAME: String = "USER_DATABASE"
+
     }
 
     override fun onCreate() {
@@ -38,6 +42,8 @@ class MyApplication : Application(), LifecycleObserver {
         ProcessLifecycleOwner.get().lifecycle.addObserver(this)
         netWorkChangeReceiver = NetWorkChangeReceiver()
         creatChannelNotification()
+
+//        val db = Room.databaseBuilder(applicationContext, AppDatabase::class.java, DATABASE_NAME).build()
     }
 
     private fun creatChannelNotification() {

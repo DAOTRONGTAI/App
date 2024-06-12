@@ -49,7 +49,7 @@ abstract class BaseActivity : AppCompatActivity() {
         val textView =
             snackbarView.findViewById<TextView>(com.androidadvance.topsnackbar.R.id.snackbar_text)
         textView.gravity = gravity
-        val tf = Typeface.createFromAsset(this.assets, "fonts/PublicSans-Regular.ttf")
+        val tf = Typeface.createFromAsset(this.assets, "font/Roboto-Regular.ttf")
         textView.setTypeface(tf, Typeface.NORMAL)
         textView.setTextSize(
             TypedValue.COMPLEX_UNIT_PX,
